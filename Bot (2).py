@@ -190,7 +190,7 @@ def ask_for_class(update: Update, context: CallbackContext):
         update.callback_query.message.reply_text(f'Выбери свой классс:',reply_markup=keyboard_markup)
     else:
         grade = update.message.text
-        update.message.reply_text(f'Я Выбери свой классс:',reply_markup=keyboard_markup)
+        update.message.reply_text(f' Выбери свой классс:',reply_markup=keyboard_markup)
     return WAIT_FOR_CLASS
 
 
